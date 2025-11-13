@@ -1,4 +1,8 @@
 n = int(input())
+result = []
 for _ in range(n):
     s = input()
-    print(s[0] + s[-1])
+    result.append(s[0] + s[-1])
+for res in result:
+    print(res)
+# == print("\n".join(result))
