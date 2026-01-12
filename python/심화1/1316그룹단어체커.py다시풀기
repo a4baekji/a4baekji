@@ -1,0 +1,9 @@
+n = int(input())
+i = 0
+word = 0
+while i < n:
+    s = input()
+    for ch in set(s):
+        if s.count(ch) == 1:
+            word += 1
+        elif s.find
